@@ -2,13 +2,13 @@
   "type": "micro",
   "wake_word": "Hey_Homie",
   "model": "hey_homie.tflite",
+  "trained_languages": ["en"],
   "version": 2,
-  "labels": ["_unknown_", "_silence_", "hey_homie"],
   "micro": {
-    "probability_cutoff": 0.75,
+    "probability_cutoff": 0.9,
     "feature_step_size": 10,
     "sliding_window_size": 5,
-    "tensor_arena_size": 40000,
+    "tensor_arena_size": 30000,
     "minimum_esphome_version": "2024.7.0"
   }
 }
