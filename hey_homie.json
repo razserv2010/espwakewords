@@ -1,6 +1,7 @@
 {
   "type": "micro",
   "wake_word": "Hey_Homie",
+  "author": "Helvio Pedreschi",
   "model": "hey_homie.tflite",
   "trained_languages": ["en"],
   "version": 2,
