@@ -2,7 +2,6 @@
   "type": "micro",
   "wake_word": "Hey Homie",
   "model": "hey_homie.tflite",
-  "trained_languages": ["en"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.75,
